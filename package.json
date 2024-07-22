@@ -5,7 +5,9 @@
   "scripts": {
     "start": "tsc -b && node dist/index.js",
     "produce":"tsc -b && node dist/producer.js",
-    "consume":"tsc -b && node dist/consumer.js"
+    "consume":"tsc -b && node dist/consumer.js",
+    "producer_partitions":"tsc -b && node dist/producer_partitions.js",
+    "consumer_partitions":"tsc -b && node dist/consumer_partitions.js" 
   },
   "keywords": [],
   "author": "",
